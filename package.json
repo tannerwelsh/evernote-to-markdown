@@ -1,0 +1,25 @@
+{
+  "name": "evernote-to-markdown",
+  "version": "0.0.0",
+  "description": "Convert Evernote export to Markdown + media files",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "evernote",
+    "export",
+    "markdown",
+    "extract"
+  ],
+  "author": "Tanner Welsh",
+  "license": "MIT",
+  "dependencies": {
+    "filenamify": "^2.0.0",
+    "js-yaml": "^3.10.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.19.1",
+    "to-markdown": "^3.1.0",
+    "xml2js": "^0.4.19"
+  }
+}
